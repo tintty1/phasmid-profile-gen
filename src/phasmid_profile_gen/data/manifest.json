@@ -1,0 +1,148 @@
+{
+ "captures": [
+  {
+   "browser_version": "Google Chrome 153.0.8010.47",
+   "date": "2026-10-18",
+   "dump_sha256": "4c6b61de7fe79e318f0f909146426f42adde38f88daa4c05e802862c45bca99a",
+   "family": "linux",
+   "gpu": "0x10de:0x2504",
+   "name": "linux-0x10de-0x2504",
+   "os_version": "arch",
+   "renderer": "ANGLE (NVIDIA Corporation, NVIDIA GeForce RTX 3060/PCIe/SSE2, OpenGL ES 3.2)"
+  },
+  {
+   "browser_version": "Google Chrome 156.0.8078.48",
+   "date": "2026-10-26",
+   "dump_sha256": "148ceb5108cbf4d8ce739422454303dfdc8749bfe5d63a4e58ceee9bfb179a79",
+   "family": "windows",
+   "gpu": "0x8086:0x3185",
+   "name": "windows-0x8086-0x3185",
+   "os_version": "11",
+   "renderer": "ANGLE (Intel, Intel(R) UHD Graphics 600 (0x00003185) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+   "browser_version": "Google Chrome 156.0.8078.49",
+   "date": "2026-10-29",
+   "dump_sha256": "7b6d8405f9d73f8595eaa3a249673eee5557ac6920106fa97261f0f0436a9501",
+   "family": "windows",
+   "gpu": "0x8086:0x0412",
+   "name": "windows-0x8086-0x0412",
+   "os_version": "10",
+   "renderer": "ANGLE (Intel, Intel(R) HD Graphics 4600 (0x00000412) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+   "assumed": [
+    "physical_memory_mb",
+    "js_heap_size_limit"
+   ],
+   "browser_version": "Google Chrome 156.0.8078.80",
+   "date": "2026-11-05",
+   "dump_sha256": "7c7e94e3abb1ec05976fc018030a51d49360cce57b563262e5e2000579f82772",
+   "family": "windows",
+   "gpu": "0x8086:0x5916",
+   "name": "windows-0x8086-0x5916",
+   "os_version": "11",
+   "renderer": "ANGLE (Intel, Intel(R) HD Graphics 620 (0x00005916) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+   "browser_version": "Google Chrome 156.0.8078.80",
+   "date": "2026-11-06",
+   "dump_sha256": "86569116d5173a5e2d4122b72f33741340383eec4fcc3418f9642c8aad075eb0",
+   "family": "windows",
+   "gpu": "0x8086:0x0416",
+   "name": "windows-0x8086-0x0416",
+   "os_version": "11",
+   "renderer": "ANGLE (Intel, Intel(R) HD Graphics 4600 (0x00000416) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+   "browser_version": "Google Chrome 156.0.8078.80",
+   "date": "2026-11-06",
+   "dump_sha256": "ac776673074095f18245273bad88ad2c578408f97e021a7025828dfb27a8c234",
+   "family": "windows",
+   "gpu": "0x8086:0x8a56",
+   "name": "windows-0x8086-0x8a56",
+   "os_version": "11",
+   "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00008A56) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  {
+   "browser_version": "Google Chrome 156.0.8078.80",
+   "date": "2026-11-06",
+   "dump_sha256": "08191ba74512ec61cb0f9f9fcb29ac7407bede710196bf089e74f238bc00873e",
+   "family": "windows",
+   "gpu": "0x1002:0x15d8",
+   "name": "windows-0x1002-0x15d8",
+   "os_version": "11",
+   "renderer": "ANGLE (AMD, AMD Radeon(TM) Vega 3 Graphics (0x000015D8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  }
+ ],
+ "files": {
+  "captures.json.xz": "9a8c9711f1e1051d9593db1dbb73a6f9e34820fcd02fd6b14986cc7d1a206961",
+  "locale.json.xz": "40f16478a0fb23e1964a5ab240fb1595121910a8dcb43b7e050f9098e9cb51ce",
+  "schema.json.xz": "336de1825cb686d292b7ba183ac062e5bd7de632f9270aede0e4d1bb45d7550e"
+ },
+ "refused": [
+  {
+   "dump_sha256": "480ef0ead594722e1dce6d1ec305049142749fdf75f5b18cbeb8cd1461e76492",
+   "reason": "browser safari, not Google Chrome"
+  },
+  {
+   "dump_sha256": "1576eb8ea9c18660d1d4a14fb59682a36227dd9a55c13f52e39c0d8557110c91",
+   "reason": "browser safari, not Google Chrome"
+  },
+  {
+   "dump_sha256": "df60aedc60617eba8b7a2df53822744da98876599349d90f9c3ebefed8f1800b",
+   "reason": "not the reduced desktop Chrome UA on Windows or Linux: 'Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36'"
+  },
+  {
+   "dump_sha256": "85e31bcd369190c916d4adcaeba6977552ef0e69ec52fdf7d9dc07adcc9db9ee",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "8758388376960aaeaab91c676afadb8a4d4bc04fbd469257307815405db2b5e3",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "64bb25d3bf9ad7a4875d98db637f5488626bc19dd72ca02dae18ca1728774d28",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "ac23eac614ebea0e73e2a9616783d2c88251902d7c443cd28b8bed6812e3eb1e",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "63a1eedcfb17359c5a2b959316bd58e2f3bab170b820cb25e0a4cd262e16de10",
+   "reason": "not the reduced desktop Chrome UA on Windows or Linux: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36'"
+  },
+  {
+   "dump_sha256": "83721240fd63d424b7c4dd13f0c2d9347f7e2bd03fb7c9e7f520b13c92623dec",
+   "reason": "maps to an invalid profile: display/window/inner_height: 0 is less than the minimum of 100; display/window/outer_height: 144 is less than the minimum of 200"
+  },
+  {
+   "dump_sha256": "2dd054b71e28463284ea12ac16e46c7555f21550644f2421e1fdfc8cc6ebc0e9",
+   "reason": "browser chromium, not Google Chrome"
+  },
+  {
+   "dump_sha256": "aca53abb9bc0011d9d3d7e9cb1380162f08fabceaca9b3465d8c510cce2723ed",
+   "reason": "browser edge, not Google Chrome"
+  },
+  {
+   "dump_sha256": "a3b94daa80769b551c5cc485eccac4fda6ddfe1c889e0ef536b37ade93e444d6",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "b8e7f0f15a0e09f86bbb3bdb13ac72e17a55cd46fd5015f67bce20cb2e1d9243",
+   "reason": "browser firefox, not Google Chrome"
+  },
+  {
+   "dump_sha256": "c33a16705c5d29e53149ecb324e97c21b0c3a6a6c789b1f0a9348083f48582b1",
+   "reason": "browser opera, not Google Chrome"
+  }
+ ],
+ "sources": {
+  "cldr": "release-48",
+  "phasmid": {
+   "chromium": "155.0.8059.84",
+   "commit": "9a4b6e5a520fdf8eb5fa5ca66a7d04fb799d1e53"
+  }
+ }
+}

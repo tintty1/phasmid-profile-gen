@@ -1,0 +1,62 @@
+[project]
+name = "phasmid-profile-gen"
+dynamic = ["version"]
+description = "Generate Phasmid browser profiles from captured real devices"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "BSD-3-Clause"
+license-files = ["LICENSE", "src/phasmid_profile_gen/data/LICENSES.md"]
+keywords = ["phasmid", "chromium", "browser fingerprint", "browser profile"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "jsonschema>=4.23",
+]
+
+[project.optional-dependencies]
+# Placing a profile at a proxy exit IP. Pinned exactly: the zone polygons decide
+# which zone and position a seed gives, so another data release changes profiles.
+location = [
+    "maxminddb==3.2.0",
+    "timezonefinder==9.2.0",
+    "timezonefinder-data==4.2026.5",
+]
+
+[project.scripts]
+phasmid-profile-gen = "phasmid_profile_gen.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/tintty1/phasmid-profile-gen"
+Repository = "https://github.com/tintty1/phasmid-profile-gen"
+Issues = "https://github.com/tintty1/phasmid-profile-gen/issues"
+
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.hatch.build.targets.sdist]
+exclude = [".github", ".claude-scratch"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff",
+    "pre-commit>=4.3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "network: downloads the pinned DB-IP database (run with PHASMID_GEOIP_NETWORK=1)",
+]
